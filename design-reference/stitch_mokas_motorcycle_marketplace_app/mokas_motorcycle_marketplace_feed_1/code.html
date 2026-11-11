@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#003ea8", "on-surface-variant": "#434655", "surface-tint": "#0053db", "tertiary": "#006242", "primary": "#004ac6", "on-surface": "#111c2d", "tertiary-container": "#007d55", "primary-fixed-dim": "#b4c5ff", "secondary-fixed": "#cce5ff", "primary-fixed": "#dbe1ff", "surface-container": "#e7eeff", "secondary-container": "#5bb8fe", "on-secondary": "#ffffff", "outline-variant": "#c3c6d7", "secondary-fixed-dim": "#93ccff", "on-error": "#ffffff", "on-tertiary-container": "#bdffdb", "on-tertiary-fixed-variant": "#005236", "on-secondary-fixed-variant": "#004b73", "secondary": "#006398", "inverse-primary": "#b4c5ff", "outline": "#737686", "on-secondary-container": "#00476e", "error": "#ba1a1a", "tertiary-fixed-dim": "#4edea3", "primary-container": "#2563eb", "background": "#f9f9ff", "surface-bright": "#f9f9ff", "on-primary-fixed": "#00174b", "inverse-surface": "#263143", "on-background": "#111c2d", "on-tertiary-fixed": "#002113", "on-secondary-fixed": "#001d31", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "inverse-on-surface": "#ecf1ff", "surface-container-lowest": "#ffffff", "surface-container-highest": "#d8e3fb", "tertiary-fixed": "#6ffbbe", "surface-variant": "#d8e3fb", "on-error-container": "#93000a", "on-primary-container": "#eeefff", "error-container": "#ffdad6", "surface-container-high": "#dee8ff", "surface-container-low": "#f0f3ff", "surface": "#f9f9ff", "surface-dim": "#cfdaf2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1rem", "margin-mobile": "1rem", "space-md": "1rem", "gutter-mobile": "0.75rem", "space-sm": "0.75rem", "space-xs": "0.5rem", "margin": "1.5rem", "space-lg": "1.5rem", "space-2xs": "0.25rem", "space-2xl": "3rem", "space-xl": "2rem" }, "fontFamily": { "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Outfit"], "headline-sm": ["Outfit"], "body-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Outfit"], "title-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "display-lg": ["Outfit"], "headline-md": ["Outfit"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }], "title-md": ["18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-sm": ["16px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs shrink-0"><img alt="MOKAS M Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrD3bXA7jNFGVP_45TbPShSSMtfsW_U1CQYCaj_3xb8qz0TU5eM9f4xzNgHIxK_ZbAJ8L5cOnI4c--MQ4OsnZafd0Q3G2JPvAp2uaO63l_FrJrkTbwxKGYcJbJEiSG5E7nlP3ZSX38h-qCKC3og8HeG0Ne6dc2Cxl8NozBYsUmUYGRPoie6EzpiVslr6hzoBvghmjNIrU3B7osc_hxwPAm8sYSIq3J6VI5DnNg0gI4fm"/><div class="flex flex-col justify-center"><div class="flex items-center gap-space-2xs"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-primary-container leading-none">MOKAS</span><span class="material-symbols-outlined text-tertiary text-[16px] leading-none" title="Verified Marketplace">verified</span></div><button class="flex items-center gap-space-2xs text-left group"><span class="material-symbols-outlined text-primary text-[14px] leading-none">near_me</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-none truncate max-w-[110px]">Jakarta / 25km</span><span class="material-symbols-outlined text-outline text-[12px] leading-none">expand_more</span></button></div></div><div class="flex items-center gap-space-2xs shrink-0"><button aria-label="Search listings" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container-low text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[20px]">search</span></button><a class="w-11 h-11 flex items-center justify-center rounded-full focus:outline-none" data-path="profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDf9DAiji8eBTtLbatreTzCaZYeJn3k-wMUJRA7OlBsU12mR5t88F4pLNFsNOyMC4m4VLSq8xKbqIsZtW-Fkl3HIAX7Ik__lbwprlUsmSwlb02lEq9Fs9OQN-gLOc_Xw8VEcdyKj-kCKS_hoa1iPetU0sQzZKvyN-VRTtoDPGWUUVq1aowFdWdQoY1fvk4gJVX0HscSgxwR9wl5iAnfJLjiZA_GuPEy8GH0fzaTYok"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface flex-1"><div class="flex flex-col w-full pb-6 space-y-space-md">
+<!-- Search & Filter Controls -->
+<section class="px-gutter pt-space-xs space-y-space-xs">
+<!-- Search Bar -->
+<div class="relative w-full">
+<div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-outline">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="w-full h-12 pl-10 pr-10 bg-surface-container-low text-on-surface placeholder:text-outline text-body-md font-body-md rounded-xl focus:outline-none focus:bg-surface-container-lowest shadow-sm transition-colors" placeholder="Search Yamaha, Honda, Kawasaki, Vespa..." type="search"/>
+<button aria-label="Tune filters" class="absolute inset-y-0 right-0 pr-3.5 flex items-center text-primary-container">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</div>
+<!-- Quick Filter Horizontal Scroll -->
+<div class="flex items-center gap-space-2xs overflow-x-auto no-scrollbar py-1 -mx-gutter px-gutter">
+<button class="shrink-0 h-8 px-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md flex items-center gap-1 shadow-sm">
+<span>All Bikes</span>
+</button>
+<button class="shrink-0 h-8 px-3 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container-high transition-colors">
+<span>Sport</span>
+</button>
+<button class="shrink-0 h-8 px-3 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container-high transition-colors">
+<span>Scooter/Matic</span>
+</button>
+<button class="shrink-0 h-8 px-3 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container-high transition-colors">
+<span>Cruiser</span>
+</button>
+<button class="shrink-0 h-8 px-3 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container-high transition-colors">
+<span>Under $3,000</span>
+</button>
+<button class="shrink-0 h-8 px-3 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md flex items-center gap-1 hover:bg-surface-container-high transition-colors">
+<span>&lt; 15,000 km</span>
+</button>
+<button class="shrink-0 h-8 px-3 rounded-full bg-tertiary-container text-on-tertiary font-label-md text-label-md flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+<span>Verified Only</span>
+</button>
+</div>
+</section>
+<!-- Valuation Promo Banner -->
+<section class="px-gutter">
+<div class="relative overflow-hidden rounded-2xl bg-gradient-to-r from-primary to-primary-container p-4 text-on-primary shadow-md">
+<div class="absolute -right-4 -bottom-6 w-32 h-32 rounded-full bg-secondary-container/20 blur-xl pointer-events-none"></div>
+<div class="relative z-10 flex items-center justify-between gap-3">
+<div class="space-y-1">
+<div class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-on-primary/15 text-on-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">bolt</span>
+<span>EXPRESS SERVICE</span>
+</div>
+<p class="font-headline-sm text-headline-sm leading-tight font-bold">Instant Motorcycle Valuation</p>
+<p class="font-body-sm text-body-sm text-on-primary/80">Get genuine cash offers and sell within 24 hours.</p>
+</div>
+<button aria-label="Start valuation" class="shrink-0 w-11 h-11 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center shadow-md active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[22px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Feed Header -->
+<div class="px-gutter flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5">
+<span class="font-title-md text-title-md font-bold text-on-surface">Verified Discoveries</span>
+<span class="h-2 w-2 rounded-full bg-tertiary animate-pulse"></span>
+</div>
+<button class="flex items-center gap-0.5 text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors">
+<span>Sort: Nearest</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+</div>
+<!-- Listings Feed -->
+<div class="px-gutter space-y-space-md">
+<!-- CARD 1: Yamaha MT-07 ABS -->
+<article class="relative flex flex-col rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden group">
+<!-- Media Header -->
+<div class="relative w-full aspect-[16/10] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Modern dark gray Yamaha MT-07 motorcycle parked in a bright minimalist urban garage with sharp studio lighting, cyan reflective accents, metallic mechanical detailing, clean crisp asphalt floor, photorealistic professional vehicle photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuKrIk5tSekBgfZxQKXL2nOvN23L7O6ItDThBjLXnXhmWFDPZqIlh4nJqS48XILIk5Lf61HMfMDpAFt8ZDQHfYqmvd3ir_DzC6nxMQjIhS6EmYNe1VY1FpoZCp7E7_b5pt5FdfWvtc7LWIQDbgUluLlv6rVu0XAkoLRewC-QHrW4Kr7jYyRRS9ey2sfRsuSx8ZiqrGZz7kjxpMnRZIZumSu-1riKIxcGipNuFwokM"/>
+<!-- Top Overlay Tags -->
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+<span>MOKAS Certified</span>
+</span>
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[14px]">photo_camera</span>
+<span>360° Inspected</span>
+</span>
+</div>
+<!-- Favorite Button -->
+<button aria-label="Save listing" class="favorite-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface-variant shadow-sm active:scale-90 transition-transform" onclick="this.classList.toggle('text-error'); this.classList.toggle('text-on-surface-variant');">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+<!-- Location Indicator Pill -->
+<div class="absolute bottom-2.5 left-3 px-2 py-0.5 rounded-md bg-inverse-surface/80 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-secondary-container">location_on</span>
+<span>Central District (3.2 km away)</span>
+</div>
+</div>
+<!-- Card Body -->
+<div class="p-4 space-y-3">
+<!-- Title & Price -->
+<div class="flex items-start justify-between gap-2">
+<div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface leading-tight">2022 Yamaha MT-07 ABS</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Torquey parallel-twin roadster • Pure sound</p>
+</div>
+<div class="text-right shrink-0">
+<div class="font-headline-sm text-headline-sm font-bold text-primary-container leading-tight">$6,450</div>
+<div class="font-body-sm text-body-sm text-outline">~$135/mo</div>
+</div>
+</div>
+<!-- Technical Specs Strip -->
+<div class="flex flex-wrap gap-1.5 pt-0.5">
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">689 CC</span>
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">8,400 KM</span>
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">1ST OWNER</span>
+<span class="px-2 py-1 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">description</span>
+            STNK + BPKB READY
+          </span>
+</div>
+<!-- Seller Profile & Quick Action Triggers -->
+<div class="pt-2 flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<div class="relative shrink-0">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-on-primary-fixed font-label-md text-label-md">JD</div>
+<span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-tertiary rounded-full flex items-center justify-center text-on-tertiary">
+<span class="material-symbols-outlined text-[9px]">check</span>
+</span>
+</div>
+<div class="truncate">
+<p class="font-label-md text-label-md font-semibold text-on-surface truncate">John D.</p>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[13px] text-amber-500 fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold text-on-surface">4.9</span>
+<span>(38 deals)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1.5 shrink-0">
+<button aria-label="Call seller" class="w-10 h-10 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[18px]">call</span>
+</button>
+<button class="h-10 px-3.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Chat</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 2: Honda CBR250RR SP -->
+<article class="relative flex flex-col rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden group">
+<!-- Media Header -->
+<div class="relative w-full aspect-[16/10] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Aggressive metallic red and white Honda CBR250RR SP supersport racing motorcycle angled dynamic side view outdoors on clean urban pavement sunny afternoon athletic design sharp dual LED headlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUfblZGcgFP8Ef0lbc2VvLe6E18YdYybLwRyHEJPiuCcnN17bU2QHO4-zMajnWgsO_O5CDYU6_oq524cXo93frmsu4HR2guq-N63AsBoFp7c11GSBzk1klzj_rBd6lgV6-LcWTFubYAhlboW1ebvWd7ko78hi-0UlAMgYpDDcbstj1c6jnb1Nq380ckRFuPY4CUBnw4HGz_LNtmSv4hy9r_IO3J_K5zOEg0YLITHY"/>
+<!-- Top Overlay Tags -->
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[14px]">storefront</span>
+<span>Dealer Certified</span>
+</span>
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm shadow-sm">
+<span>Quick Shifter</span>
+</span>
+</div>
+<!-- Favorite Button -->
+<button aria-label="Save listing" class="favorite-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface-variant shadow-sm active:scale-90 transition-transform" onclick="this.classList.toggle('text-error'); this.classList.toggle('text-on-surface-variant');">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+<!-- Location Indicator Pill -->
+<div class="absolute bottom-2.5 left-3 px-2 py-0.5 rounded-md bg-inverse-surface/80 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-secondary-container">location_on</span>
+<span>West Suburb (6.0 km away)</span>
+</div>
+</div>
+<!-- Card Body -->
+<div class="p-4 space-y-3">
+<!-- Title & Price -->
+<div class="flex items-start justify-between gap-2">
+<div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface leading-tight">2021 Honda CBR250RR SP</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Garage kept • Throttle-by-wire 3 riding modes</p>
+</div>
+<div class="text-right shrink-0">
+<div class="font-headline-sm text-headline-sm font-bold text-primary-container leading-tight">$4,200</div>
+<div class="font-body-sm text-body-sm text-outline">~$88/mo</div>
+</div>
+</div>
+<!-- Technical Specs Strip -->
+<div class="flex flex-wrap gap-1.5 pt-0.5">
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">249 CC</span>
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">12,000 KM</span>
+<span class="px-2 py-1 rounded-lg bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm">MINT CONDITION</span>
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">SERVICE RECORDS</span>
+</div>
+<!-- Seller Profile & Actions -->
+<div class="pt-2 flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-bold font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">two_wheeler</span>
+</div>
+<div class="truncate">
+<p class="font-label-md text-label-md font-semibold text-on-surface truncate">Westside MotoHub</p>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[13px] text-amber-500 fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold text-on-surface">4.8</span>
+<span>(120+ sold)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1.5 shrink-0">
+<button aria-label="Call seller" class="w-10 h-10 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[18px]">call</span>
+</button>
+<button class="h-10 px-3.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Chat</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 3: Vespa Sprint S 150 TFT -->
+<article class="relative flex flex-col rounded-2xl bg-surface-container-lowest shadow-sm overflow-hidden group">
+<!-- Media Header -->
+<div class="relative w-full aspect-[16/10] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Pastel matte bronze gold 2023 Vespa Sprint S 150 TFT scooter parked neatly in front of an upscale boutique coffee shop in a trendy metropolitan avenue clean sleek modern urban mobility." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCycTzW3MGTYw-azqBXFiP3N6XI8774anD4VVJc3d0fEf-XN3_l1FxLZxA5mO1EW-X771AiUpFNveC5jHuO3zn9JPYyn4ZZBS_IC2PXCJCEMJN-3sDsr1Cpt0sqWT2wof0yzVagM1A7AFg9kcydrabJilONh3EdEm-nldrA8xFtwnYV0w2gNSGHs08PWL17-gNOrjIUCVKTyqMm6FWrHwGbU4LICfjk4AgjYELvYgM"/>
+<!-- Top Overlay Tags -->
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[14px]">shield</span>
+<span>Active Warranty</span>
+</span>
+<span class="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm shadow-sm">
+<span>TFT Display</span>
+</span>
+</div>
+<!-- Favorite Button -->
+<button aria-label="Save listing" class="favorite-btn absolute top-3 right-3 w-9 h-9 rounded-full bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-center text-on-surface-variant shadow-sm active:scale-90 transition-transform" onclick="this.classList.toggle('text-error'); this.classList.toggle('text-on-surface-variant');">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+<!-- Location Indicator Pill -->
+<div class="absolute bottom-2.5 left-3 px-2 py-0.5 rounded-md bg-inverse-surface/80 backdrop-blur-sm text-inverse-on-surface font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-secondary-container">location_on</span>
+<span>Uptown (1.5 km away)</span>
+</div>
+</div>
+<!-- Card Body -->
+<div class="p-4 space-y-3">
+<!-- Title & Price -->
+<div class="flex items-start justify-between gap-2">
+<div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface leading-tight">2023 Vespa Sprint S 150 TFT</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Digital cockpit • ABS • Pristine city commuter</p>
+</div>
+<div class="text-right shrink-0">
+<div class="font-headline-sm text-headline-sm font-bold text-primary-container leading-tight">$3,850</div>
+<div class="font-body-sm text-body-sm text-outline">~$79/mo</div>
+</div>
+</div>
+<!-- Technical Specs Strip -->
+<div class="flex flex-wrap gap-1.5 pt-0.5">
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">155 CC i-GET</span>
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">3,200 KM</span>
+<span class="px-2 py-1 rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">KEYLESS ENTRY</span>
+<span class="px-2 py-1 rounded-lg bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">verified_user</span>
+            DEALER WARRANTY
+          </span>
+</div>
+<!-- Seller Profile & Actions -->
+<div class="pt-2 flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<div class="relative shrink-0">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-on-secondary-fixed-variant font-label-md text-label-md">SK</div>
+<span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-tertiary rounded-full flex items-center justify-center text-on-tertiary">
+<span class="material-symbols-outlined text-[9px]">check</span>
+</span>
+</div>
+<div class="truncate">
+<p class="font-label-md text-label-md font-semibold text-on-surface truncate">Sarah K.</p>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[13px] text-amber-500 fill-current" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-semibold text-on-surface">5.0</span>
+<span>(1st sale)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-1.5 shrink-0">
+<button aria-label="Call seller" class="w-10 h-10 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center hover:bg-surface-container-highest transition-colors active:scale-95">
+<span class="material-symbols-outlined text-[18px]">call</span>
+</button>
+<button class="h-10 px-3.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md flex items-center gap-1.5 shadow-sm active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Chat</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- End of Feed State: Warm Delight Cue -->
+<div class="px-gutter pt-2 pb-4 text-center">
+<div class="p-6 rounded-2xl bg-surface-container-low flex flex-col items-center justify-center space-y-2">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">speed</span>
+</div>
+<p class="font-title-sm text-title-sm font-semibold text-on-surface">You've caught up with your area!</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">New verified listings pop up daily within your 25km radius.</p>
+<button class="mt-1 h-9 px-4 rounded-xl bg-surface-container-highest text-primary font-label-md text-label-md hover:bg-surface-container transition-colors">
+        Expand Search to 50 km
+      </button>
+</div>
+</div>
+</div>
+<script>
+  // Simple interactive filter toggle for delight
+  document.querySelectorAll('section button').forEach(button => {
+    button.addEventListener('click', function() {
+      if (this.closest('.no-scrollbar')) {
+        const siblings = this.parentElement.querySelectorAll('button');
+        siblings.forEach(b => {
+          b.classList.remove('bg-primary-container', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        this.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        this.classList.add('bg-primary-container', 'text-on-primary');
+      }
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(17,28,45,0.05)]" data-active-classes="text-primary-container font-bold"><div class="flex items-center justify-around h-16 px-space-xs relative"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-2xs transition-colors text-primary-container font-bold" data-path="explore" href="#"><span class="material-symbols-outlined text-[22px]">two_wheeler</span><span class="font-label-sm text-label-sm">Explore</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-2xs text-on-surface-variant transition-colors hover:text-primary-container relative" data-path="chat" href="#"><div class="relative flex items-center justify-center"><span class="material-symbols-outlined text-[22px]">chat</span><span class="absolute -top-1 -right-2 min-w-[16px] h-4 px-1 rounded-full bg-error text-on-error font-label-sm text-[10px] leading-none flex items-center justify-center">2</span></div><span class="font-label-sm text-label-sm">Chat</span></a><div class="relative -top-4 flex flex-col items-center"><a class="w-14 h-14 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_4px_12px_rgba(37,99,235,0.35)] transition-transform active:scale-95" data-path="sell" href="#"><span class="material-symbols-outlined text-[28px]">photo_camera</span></a><span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Sell</span></div><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-2xs text-on-surface-variant transition-colors hover:text-primary-container" data-path="history" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm">History</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-2xs text-on-surface-variant transition-colors hover:text-primary-container" data-path="profile" href="#"><span class="material-symbols-outlined text-[22px]">person</span><span class="font-label-sm text-label-sm">Profile</span></a></div></nav></body></html>

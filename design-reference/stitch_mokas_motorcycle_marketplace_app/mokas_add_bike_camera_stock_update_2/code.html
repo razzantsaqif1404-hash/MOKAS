@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#003ea8", "on-surface-variant": "#434655", "surface-tint": "#0053db", "tertiary": "#006242", "primary": "#004ac6", "on-surface": "#111c2d", "tertiary-container": "#007d55", "primary-fixed-dim": "#b4c5ff", "secondary-fixed": "#cce5ff", "primary-fixed": "#dbe1ff", "surface-container": "#e7eeff", "secondary-container": "#5bb8fe", "on-secondary": "#ffffff", "outline-variant": "#c3c6d7", "secondary-fixed-dim": "#93ccff", "on-error": "#ffffff", "on-tertiary-container": "#bdffdb", "on-tertiary-fixed-variant": "#005236", "on-secondary-fixed-variant": "#004b73", "secondary": "#006398", "inverse-primary": "#b4c5ff", "outline": "#737686", "on-secondary-container": "#00476e", "error": "#ba1a1a", "tertiary-fixed-dim": "#4edea3", "primary-container": "#2563eb", "background": "#f9f9ff", "surface-bright": "#f9f9ff", "on-primary-fixed": "#00174b", "inverse-surface": "#263143", "on-background": "#111c2d", "on-tertiary-fixed": "#002113", "on-secondary-fixed": "#001d31", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "inverse-on-surface": "#ecf1ff", "surface-container-lowest": "#ffffff", "surface-container-highest": "#d8e3fb", "tertiary-fixed": "#6ffbbe", "surface-variant": "#d8e3fb", "on-error-container": "#93000a", "on-primary-container": "#eeefff", "error-container": "#ffdad6", "surface-container-high": "#dee8ff", "surface-container-low": "#f0f3ff", "surface": "#f9f9ff", "surface-dim": "#cfdaf2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1rem", "margin-mobile": "1rem", "space-md": "1rem", "gutter-mobile": "0.75rem", "space-sm": "0.75rem", "space-xs": "0.5rem", "margin": "1.5rem", "space-lg": "1.5rem", "space-2xs": "0.25rem", "space-2xl": "3rem", "space-xl": "2rem" }, "fontFamily": { "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Outfit"], "headline-sm": ["Outfit"], "body-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Outfit"], "title-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "display-lg": ["Outfit"], "headline-md": ["Outfit"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }], "title-md": ["18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-sm": ["16px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/90 backdrop-blur-xl border-b border-surface-container-high"><div class="h-16 px-space-xs flex items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs"><button aria-label="Kembali" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container-low transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[22px]">arrow_back</span></button><h1 class="font-title-md text-title-md text-on-surface font-semibold truncate">Pasang Iklan Motor</h1></div><div class="flex items-center pr-2"><span class="font-label-sm text-label-sm px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-semibold">MOKAS</span></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface flex-1"><div class="flex flex-col w-full px-margin-mobile pb-space-2xl space-y-space-lg">
+<!-- Simple Step Indicator -->
+<section class="bg-surface-container-low rounded-xl p-space-sm shadow-sm mt-3">
+<div class="flex items-center justify-between mb-space-2xs">
+<span class="font-label-md text-label-md text-primary font-semibold">Langkah 1 dari 2: Foto &amp; Info Motor</span>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Draft Disimpan
+</span>
+</div>
+<div class="w-full bg-surface-container-highest rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary h-1.5 rounded-full w-1/2 transition-all duration-300"></div>
+</div>
+</section>
+<!-- Interactive Camera & Photo Capture Section -->
+<section class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Foto Motor</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Foto lengkap meningkatkan respon pembeli hingga 3x</p>
+</div>
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[13px]">verified</span> 3 dari 4 Foto
+</span>
+</div>
+<!-- Main Viewfinder Capture Card -->
+<div class="relative bg-surface-container rounded-2xl overflow-hidden p-space-md shadow-sm text-center flex flex-col items-center justify-center space-y-space-sm group border border-surface-container-high">
+<div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-md transform active:scale-95 transition-transform cursor-pointer">
+<span class="material-symbols-outlined text-[32px]">photo_camera</span>
+</div>
+<div class="space-y-1">
+<div class="font-title-sm text-title-sm text-on-surface font-semibold">Ambil Foto Motor</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-[280px]">
+Foto tampak depan, samping, dan odometer
+</p>
+</div>
+<div class="grid grid-cols-2 gap-space-xs w-full pt-space-2xs">
+<button class="h-11 bg-primary text-on-primary rounded-xl font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm active:bg-on-primary-fixed-variant transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+Kamera HP
+</button>
+<button class="h-11 bg-surface-container-lowest text-on-surface rounded-xl font-label-md text-label-md flex items-center justify-center gap-1.5 border border-outline-variant active:bg-surface-dim transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">collections</span>
+Pilih dari Galeri
+</button>
+</div>
+</div>
+<!-- 4 Angles Slot Strip -->
+<div class="grid grid-cols-4 gap-space-2xs pt-space-2xs">
+<!-- Slot 1: Depan -->
+<div class="flex flex-col space-y-1">
+<div class="relative w-full aspect-square rounded-xl overflow-hidden shadow-sm bg-surface-container-high">
+<img alt="Foto motor tampak depan" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkX7P3tXbc1AVfXY0wMteBVvAeawCXAVHHOzf9z0bIhr83ddAvA-S3t3uzw8N2ct_ALzMy9gTHPrLVIO1x1ic4JBvKCnlrTuaeglqz1GQreBUWdJIaZPJ7hwzLdVR9-PmcK-0WbNtbfr8gLekQ5UpT-Xf94uxGFolpuEoadPCnmJLY9gIOOhlGxZ-ygNVLSOJMy6iFhnloKbV2XiRQNITipbMnvqaw2WlqevYEeGE"/>
+<div class="absolute bottom-1 right-1 bg-tertiary text-on-tertiary rounded-full p-0.5 flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center truncate">Depan</span>
+</div>
+<!-- Slot 2: Samping -->
+<div class="flex flex-col space-y-1">
+<div class="relative w-full aspect-square rounded-xl overflow-hidden shadow-sm bg-surface-container-high">
+<img alt="Foto motor tampak samping" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCk0Z04yYJ2xaZ91lHr1QbxgjPuLv9XFmoCK28f9CRx96KCw9_ila0_NmtGdFZ28V4vBUpQDeYmUb-WbnjeYEuXkyWJzLBfyKb4OnDM9MC4cx54t-tUqZeZf6IvnBzkSwo67C64hR71E_2WYPExn3QC1Wg06fIDVB_fm-_BKCsafzfjVl6OLFeVPDkckFS_r3a5kNlQztuifoMlHRyzxYmGO5Kc2wYziqWxZa4OwSI"/>
+<div class="absolute bottom-1 right-1 bg-tertiary text-on-tertiary rounded-full p-0.5 flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center truncate">Samping</span>
+</div>
+<!-- Slot 3: Odometer -->
+<div class="flex flex-col space-y-1">
+<div class="relative w-full aspect-square rounded-xl overflow-hidden shadow-sm bg-surface-container-high">
+<img alt="Foto speedometer odometer motor" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRNU-Tnegkr5DT5uNTWulaB-AVwD0uQFKzXQUuRhPOJADYNalU0yNXjBy57RZOxPmcLW4RCcwJPDZh30TQf7kEinInNRtcSWqtvewZbB-CV9OGNNLtuRe19uy21WZhh97Zl7FLQei7bMSL3v84nFx_WHrYAelNC5GACu3fpNQj1Tr0XfgJzpysDv8nOYDw-QIvEbVPo1fUo1vYasFRkXw7zqGURl5n6WS3HBh3Czw"/>
+<div class="absolute bottom-1 right-1 bg-tertiary text-on-tertiary rounded-full p-0.5 flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface text-center truncate">Odometer</span>
+</div>
+<!-- Slot 4: Belakang -->
+<div class="flex flex-col space-y-1">
+<div class="w-full aspect-square rounded-xl bg-surface-container-highest border-2 border-dashed border-primary/40 flex flex-col items-center justify-center text-primary cursor-pointer active:bg-surface-dim transition-colors">
+<span class="material-symbols-outlined text-[20px]">add_a_photo</span>
+<span class="font-label-sm text-[10px] uppercase font-bold mt-1 text-primary">Belakang</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant text-center truncate">+ Belakang</span>
+</div>
+</div>
+</section>
+<!-- Quick Stock status & Quantity selector -->
+<section class="bg-surface-container-low rounded-2xl p-space-md shadow-sm space-y-space-sm border border-surface-container-high/60">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">inventory_2</span>
+</span>
+<div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-semibold">Status Unit</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ketersediaan motor di garasi / showroom</p>
+</div>
+</div>
+<!-- Quantity Selector -->
+<div class="flex items-center bg-surface-container-highest rounded-xl p-1">
+<button aria-label="Kurangi jumlah" class="w-8 h-8 rounded-lg bg-surface-container text-on-surface flex items-center justify-center active:scale-95 transition-transform" id="counter-minus" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<div class="px-2 min-w-[72px] text-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant block leading-tight">Jumlah</span>
+<span class="font-title-sm text-title-sm text-on-surface font-semibold" id="unit-count-display">1</span>
+</div>
+<button aria-label="Tambah jumlah" class="w-8 h-8 rounded-lg bg-surface-container text-on-surface flex items-center justify-center active:scale-95 transition-transform" id="counter-plus" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+<!-- Quick Stock Buttons -->
+<div class="grid grid-cols-2 gap-space-xs pt-space-2xs">
+<label class="relative flex items-center gap-space-xs p-space-xs rounded-xl bg-surface-container cursor-pointer border border-transparent has-[:checked]:border-tertiary has-[:checked]:bg-surface-container-lowest transition-all">
+<input checked="" class="peer sr-only" name="stock_status" type="radio" value="ready"/>
+<div class="w-4 h-4 rounded-full bg-surface-container-highest peer-checked:bg-tertiary flex items-center justify-center">
+<div class="w-2 h-2 rounded-full bg-surface-container-lowest"></div>
+</div>
+<div class="min-w-0">
+<div class="font-label-md text-label-md text-on-surface font-semibold">Tersedia (Ready)</div>
+<div class="font-body-sm text-body-sm text-tertiary truncate">Siap dicek &amp; dibeli</div>
+</div>
+</label>
+<label class="relative flex items-center gap-space-xs p-space-xs rounded-xl bg-surface-container cursor-pointer border border-transparent has-[:checked]:border-secondary has-[:checked]:bg-surface-container-lowest transition-all">
+<input class="peer sr-only" name="stock_status" type="radio" value="reserved"/>
+<div class="w-4 h-4 rounded-full bg-surface-container-highest peer-checked:bg-secondary flex items-center justify-center">
+<div class="w-2 h-2 rounded-full bg-surface-container-lowest"></div>
+</div>
+<div class="min-w-0">
+<div class="font-label-md text-label-md text-on-surface font-semibold">Sudah Dibooking</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Ada tanda jadi (DP)</div>
+</div>
+</label>
+</div>
+</section>
+<!-- Motorcycle Specification & Metadata Fields -->
+<section class="space-y-space-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Detail Motor</h3>
+<!-- Judul Iklan -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold">Judul Iklan</label>
+<input class="w-full h-12 px-space-md rounded-xl bg-surface-container-low text-on-surface font-title-sm text-title-sm focus:outline-none focus:bg-surface-container shadow-sm transition-colors border border-surface-container-high" placeholder="Contoh: Honda Vario 160 ABS 2022 Mulus" type="text" value="Honda Vario 160 ABS 2022 Mulus"/>
+</div>
+<!-- Merek & Tipe Dropdown -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold">Merek &amp; Tipe</label>
+<div class="relative">
+<select class="w-full h-12 px-space-md rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none shadow-sm pr-9 border border-surface-container-high">
+<option selected="">Honda Vario 160 ABS</option>
+<option>Honda Beat eSP</option>
+<option>Honda Scoopy Prestige</option>
+<option>Honda PCX 160 CBS/ABS</option>
+<option>Yamaha NMAX 155 Connected</option>
+<option>Yamaha Aerox 155 VVA</option>
+<option>Kawasaki Ninja ZX-25R</option>
+<option>Vespa Sprint 150 i-Get ABS</option>
+</select>
+<span class="material-symbols-outlined pointer-events-none absolute right-3 top-3.5 text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Tahun & Jarak Tempuh Grid -->
+<div class="grid grid-cols-2 gap-space-xs">
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold">Tahun Pembuatan</label>
+<input class="w-full h-12 px-space-md rounded-xl bg-surface-container-low text-on-surface font-title-sm text-title-sm focus:outline-none shadow-sm border border-surface-container-high" placeholder="2022" type="number" value="2022"/>
+</div>
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold">Kilometer (Odo)</label>
+<input class="w-full h-12 px-space-md rounded-xl bg-surface-container-low text-on-surface font-title-sm text-title-sm focus:outline-none shadow-sm border border-surface-container-high" placeholder="12.000 km" type="text" value="12.000 km"/>
+</div>
+</div>
+<!-- Harga Jual (Rp) -->
+<div class="bg-surface-container-low rounded-2xl p-space-md space-y-space-xs shadow-sm border border-surface-container-high">
+<div class="flex items-center justify-between">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Harga Jual (Rp)</label>
+<span class="font-label-sm text-label-sm text-tertiary flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> Harga Pasaran Wajar
+</span>
+</div>
+<div class="relative flex items-center">
+<span class="absolute left-4 font-headline-md text-headline-md text-primary font-bold">Rp</span>
+<input class="w-full h-14 pl-14 pr-space-md rounded-xl bg-surface-container-lowest text-on-surface font-headline-md text-headline-md font-bold focus:outline-none shadow-inner border border-surface-container-high" placeholder="24.500.000" type="text" value="24.500.000"/>
+</div>
+<!-- Info Harga Pasaran -->
+<div class="p-space-xs rounded-xl bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<span class="font-body-sm text-body-sm text-on-surface">Harga pasaran:</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Rp 23 – 26 Juta</span>
+</div>
+</div>
+<!-- Deskripsi Singkat -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold">Deskripsi Singkat</label>
+<textarea class="w-full p-space-md rounded-xl bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container shadow-sm resize-none border border-surface-container-high" placeholder="Tuliskan kondisi fisik, mesin, dan kelengkapan surat (STNK &amp; BPKB)..." rows="3">Tangan pertama dari baru, surat lengkap STNK &amp; BPKB akur faktur ada. Pajak aktif, servis rutin resmi di AHASS, bodi mulus tanpa lecet, mesin halus siap pakai.</textarea>
+</div>
+</section>
+<!-- Seller Phone / Contact field -->
+<section class="bg-surface-container-low rounded-2xl p-space-md space-y-space-sm shadow-sm border border-surface-container-high">
+<div class="flex items-center gap-space-xs">
+<span class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</span>
+<div>
+<h3 class="font-title-sm text-title-sm text-on-surface font-semibold">Kontak Penjual</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Untuk komunikasi langsung dengan calon pembeli</p>
+</div>
+</div>
+<!-- Phone Number Input -->
+<div class="space-y-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block font-semibold">Nomor WhatsApp / HP Penjual</label>
+<div class="flex gap-space-2xs">
+<div class="w-20 shrink-0 h-12 px-space-xs rounded-xl bg-surface-container flex items-center justify-center font-label-md text-label-md text-on-surface gap-1 shadow-sm border border-surface-container-high">
+<span>🇮🇩 +62</span>
+</div>
+<input class="w-full h-12 px-space-md rounded-xl bg-surface-container text-on-surface font-body-md text-body-md focus:outline-none shadow-sm border border-surface-container-high" placeholder="0812-3456-7890" type="tel" value="0812-3456-7890"/>
+</div>
+</div>
+<!-- Toggle Tampilkan Nomor HP -->
+<label class="flex items-center justify-between p-space-xs rounded-xl bg-surface-container cursor-pointer select-none border border-surface-container-high/60">
+<div class="min-w-0 pr-2">
+<span class="font-label-md text-label-md text-on-surface block font-semibold">Tampilkan nomor HP ke pembeli</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Pembeli dapat menghubungi via WhatsApp &amp; telepon</span>
+</div>
+<div class="relative inline-flex items-center shrink-0">
+<input checked="" class="sr-only peer" id="public-phone-toggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</div>
+</label>
+</section>
+<!-- Big prominent primary button -->
+<div class="pt-space-xs">
+<button class="w-full h-14 bg-primary text-on-primary rounded-xl font-title-sm text-title-sm font-semibold flex items-center justify-center gap-2 shadow-lg active:bg-on-primary-fixed-variant transition-transform active:scale-[0.99]" type="button">
+<span class="material-symbols-outlined text-[22px]">publish</span>
+Pasang Iklan Sekarang
+</button>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-center mt-2 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-tertiary">lock</span> Dilindungi Garansi Transaksi Aman &amp; Cek STNK MOKAS
+</p>
+</div>
+</div>
+<script>
+  // Unit Stock Counter Interaction
+  const minusBtn = document.getElementById('counter-minus');
+  const plusBtn = document.getElementById('counter-plus');
+  const display = document.getElementById('unit-count-display');
+
+  if (minusBtn && plusBtn && display) {
+    let count = 1;
+    minusBtn.addEventListener('click', () => {
+      if (count > 1) {
+        count--;
+        display.textContent = count;
+      }
+    });
+    plusBtn.addEventListener('click', () => {
+      count++;
+      display.textContent = count;
+    });
+  }
+</script></main></body></html>

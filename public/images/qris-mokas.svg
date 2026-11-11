@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 580" width="100%" height="100%" fill="none">
+  <defs>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="10" y="10" width="400" height="560" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#cardShadow)" />
+
+  <!-- Top QRIS Red Banner -->
+  <path d="M10 38C10 22.536 22.536 10 38 10H382C397.464 10 410 22.536 410 38V85H10V38Z" fill="#ee2737" />
+  
+  <!-- QRIS Header Text -->
+  <text x="210" y="48" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="24" fill="#ffffff" text-anchor="middle" letter-spacing="0.08em">QRIS</text>
+  <text x="210" y="70" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="10.5" fill="#ffffff" text-anchor="middle" letter-spacing="0.12em">PEMBAYARAN STANDAR NASIONAL</text>
+
+  <!-- GPN Logo Text on Right -->
+  <rect x="330" y="24" width="55" height="24" rx="6" fill="#ffffff" />
+  <text x="357" y="40" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="11" fill="#ee2737" text-anchor="middle">GPN</text>
+
+  <!-- Merchant Information -->
+  <g transform="translate(30, 110)">
+    <text x="180" y="0" font-family="'Outfit', sans-serif" font-weight="800" font-size="19" fill="#0f172a" text-anchor="middle">MOKAS MOTOR BEKAS</text>
+    <text x="180" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11" fill="#64748b" text-anchor="middle">NMID: ID1020268899770 • SHOWROOM PUSAT</text>
+    <rect x="60" y="32" width="240" height="28" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1" />
+    <text x="180" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="12" fill="#166534" text-anchor="middle">NOMINAL: Rp 200.000 (TANDA JADI)</text>
+  </g>
+
+  <!-- QR Code Frame & Realistic Pattern -->
+  <g transform="translate(65, 195)">
+    <!-- QR Outer Border -->
+    <rect x="0" y="0" width="290" height="290" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+
+    <!-- Corner 1 (Top-Left) -->
+    <rect x="25" y="25" width="60" height="60" rx="8" fill="#0f172a" />
+    <rect x="35" y="35" width="40" height="40" rx="4" fill="#ffffff" />
+    <rect x="43" y="43" width="24" height="24" rx="3" fill="#0f172a" />
+
+    <!-- Corner 2 (Top-Right) -->
+    <rect x="205" y="25" width="60" height="60" rx="8" fill="#0f172a" />
+    <rect x="215" y="35" width="40" height="40" rx="4" fill="#ffffff" />
+    <rect x="223" y="43" width="24" height="24" rx="3" fill="#0f172a" />
+
+    <!-- Corner 3 (Bottom-Left) -->
+    <rect x="25" y="205" width="60" height="60" rx="8" fill="#0f172a" />
+    <rect x="35" y="215" width="40" height="40" rx="4" fill="#ffffff" />
+    <rect x="43" y="223" width="24" height="24" rx="3" fill="#0f172a" />
+
+    <!-- QR Data Matrix Dots Simulation -->
+    <g fill="#0f172a">
+      <!-- Row strips and blocks -->
+      <rect x="100" y="30" width="12" height="12" />
+      <rect x="120" y="30" width="12" height="24" />
+      <rect x="150" y="30" width="24" height="12" />
+      <rect x="180" y="30" width="12" height="12" />
+
+      <rect x="100" y="60" width="24" height="12" />
+      <rect x="135" y="55" width="12" height="12" />
+      <rect x="160" y="60" width="20" height="20" />
+
+      <rect x="30" y="100" width="12" height="12" />
+      <rect x="50" y="100" width="20" height="12" />
+      <rect x="80" y="95" width="12" height="20" />
+      <rect x="100" y="100" width="90" height="12" />
+      <rect x="200" y="100" width="12" height="30" />
+      <rect x="225" y="95" width="35" height="12" />
+
+      <!-- Center Logo Box -->
+      <rect x="115" y="115" width="60" height="60" rx="10" fill="#004ac6" />
+      <text x="145" y="152" font-family="'Outfit', sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle">M</text>
+
+      <!-- Bottom matrix patterns -->
+      <rect x="100" y="190" width="24" height="12" />
+      <rect x="140" y="190" width="12" height="24" />
+      <rect x="170" y="190" width="30" height="12" />
+      <rect x="220" y="180" width="12" height="30" />
+      <rect x="245" y="190" width="20" height="12" />
+
+      <rect x="100" y="230" width="40" height="12" />
+      <rect x="160" y="225" width="25" height="25" />
+      <rect x="200" y="235" width="30" height="12" />
+      <rect x="245" y="225" width="20" height="25" />
+    </g>
+  </g>
+
+  <!-- Supported Payments & Footer -->
+  <g transform="translate(30, 505)">
+    <text x="180" y="10" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="10.5" fill="#64748b" text-anchor="middle">
+      BCA • Mandiri • BRI • BNI • GoPay • OVO • DANA • ShopeePay
+    </text>
+    <text x="180" y="30" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#004ac6" text-anchor="middle">
+      Cek Fisik & Konfirmasi Langsung via WhatsApp MOKAS
+    </text>
+  </g>
+</svg>
+

@@ -1,0 +1,28 @@
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env*
+!.env.example
+
+# Apps Script
+code.gs
+setup.gs
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+

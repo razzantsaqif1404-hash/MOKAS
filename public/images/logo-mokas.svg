@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none" class="w-auto h-full">
+  <defs>
+    <linearGradient id="mokasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0052db" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d68f" />
+      <stop offset="100%" stop-color="#006242" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Icon Emblem -->
+  <g transform="translate(6, 8)" filter="url(#shadow)">
+    <!-- Base geometric hexagon/speed shield -->
+    <rect x="0" y="4" width="56" height="56" rx="16" fill="url(#mokasGrad)" />
+    
+    <!-- Stylized Speed M Icon -->
+    <path d="M12 44V20L22 34L28 25L34 34L44 20V44" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Verified / Quality Spark Notch -->
+    <circle cx="44" cy="14" r="7" fill="url(#accentGrad)" />
+    <path d="M41.5 14L43.5 16L47 12" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(76, 40)">
+    <text x="0" y="4" font-family="'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="30" letter-spacing="-0.02em" fill="#004ac6">MOKAS</text>
+    <rect x="114" y="-14" width="46" height="18" rx="9" fill="#e7eeff" />
+    <text x="137" y="-2" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#004ac6" text-anchor="middle">OFFICIAL</text>
+    
+    <text x="1" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="10.5" letter-spacing="0.12em" fill="#434655">MOTOR BEKAS BERKUALITAS</text>
+  </g>
+</svg>
+

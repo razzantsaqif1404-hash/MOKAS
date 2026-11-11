@@ -1,0 +1,71 @@
+{
+  "Roles": [
+    {
+      "id": "role-admin",
+      "name": "admin",
+      "description": "Administrator penuh MOKAS",
+      "permissions": "all",
+      "is_system": "true",
+      "created_at": "2026-11-11T01:13:43.741Z"
+    },
+    {
+      "id": "role-user",
+      "name": "user",
+      "description": "Pengguna terdaftar MOKAS",
+      "permissions": "read_news,create_order",
+      "is_system": "true",
+      "created_at": "2026-11-11T01:13:43.741Z"
+    }
+  ],
+  "Users": [
+    {
+      "id": "user-admin-root",
+      "name": "Administrator MOKAS",
+      "email": "admin@gmail.com",
+      "password_hash": "$2b$10$W4B/ryQG2O4AqVrb27jCi.K4mqlU9kq.XUgCn8AgfeH18R3kA1Fkm",
+      "role_id": "role-admin",
+      "status": "active",
+      "created_at": "2026-11-11T01:13:43.741Z",
+      "updated_at": "2026-11-11T01:13:43.741Z"
+    }
+  ],
+  "News": [
+    {
+      "id": "news-001",
+      "title": "5 Hal Wajib Diperiksa Saat Membeli Motor Second Agar Tidak Tertipu Mesin Oplosan",
+      "slug": "tips-cek-mesin-motor-bekas-bebas-oplosan",
+      "excerpt": "Mulai dari memeriksa warna asap knalpot, suara rantai keteng, hingga baut blok mesin yang belum cacat bekas bongkaran.",
+      "content": "Membeli motor second membutuhkan ketelitian ekstra pada bagian ruang bakar dan transmisi. Pastikan mesin dalam kondisi dingin saat pertama dinyalakan untuk mendengarkan ketukan klep yang wajar...",
+      "thumbnail_path": "/images/news-cek-mesin.svg",
+      "status": "published",
+      "author_id": "user-admin-root",
+      "created_at": "2026-11-11T01:13:43.741Z",
+      "updated_at": "2026-11-11T01:13:43.741Z"
+    },
+    {
+      "id": "news-002",
+      "title": "Panduan Lengkap Memeriksa Keabsahan STNK & BPKB Asli Sebelum Transaksi Motor",
+      "slug": "cara-cek-keaslian-stnk-bpkb-samsat",
+      "excerpt": "Ketahui ciri watermark hologram BPKB asli, benang pengaman dokumen, dan cara cek online e-Samsat tanpa harus ke kantor polisi.",
+      "content": "Legalitas kendaraan bermotor adalah nomor satu. Pastikan nomor rangka dan nomor mesin pada fisik kendaraan cocok 100% dengan yang tertera di lembar STNK dan BPKB tanpa bekas ketokan kasar...",
+      "thumbnail_path": "/images/news-cek-surat.svg",
+      "status": "published",
+      "author_id": "user-admin-root",
+      "created_at": "2026-11-11T01:13:43.741Z",
+      "updated_at": "2026-11-11T01:13:43.741Z"
+    },
+    {
+      "id": "news-003",
+      "title": "Daftar Rekomendasi Motor Matic Bekas Paling Bandel & Hemat BBM Tahun 2026",
+      "slug": "rekomendasi-motor-matic-bekas-paling-irit-2026",
+      "excerpt": "Ulasan perbandingan konsumsi bahan bakar, ketersediaan sparepart, serta harga pasar wajar untuk motor harian komuter.",
+      "content": "Motor matic kelas 125cc hingga 160cc tetap menjadi primadona di pasar motor second. Model seperti Honda BeAT, Vario, hingga Yamaha NMAX mendominasi penjualan karena efisiensi bahan bakar...",
+      "thumbnail_path": "/images/news-matic-irit.svg",
+      "status": "published",
+      "author_id": "user-admin-root",
+      "created_at": "2026-11-11T01:13:43.741Z",
+      "updated_at": "2026-11-11T01:13:43.741Z"
+    }
+  ],
+  "Orders": []
+}
